@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="cae1">CAESAR </h1>
+  <H1 id="cae2">CIPHER</H1>
+  <h1 class="head1enc">Encryption</h1>
+  <form>
+
+    <label id="labinp1" for="inp1">Input</label>
+    <textarea class="inpu1" id="inp1" rows="10" cols="40" name="input2"></textarea>
+    <label id="labkey1" for="inp2">Key</label>
+    <input type="text" class="inp2" placeholder="NUMBER">
+
+    <input type="submit" id="Submit">
+    <label id="labout1" for="output">Output</label>
+    <textarea class="output" rows="10" cols="40" name="input2" readonly> </textarea>
+  </form>
+
+  <h1 class="head1dec">Decryption</h1>
+  <form>
+    <label id="labinp3" for="inp3">Input</label>
+    <textarea id="inp3" rows="10" cols="40" name="input2"></textarea>
+    <label id="labkey2" for="inp4">Key</label>
+    <input type="text" class="inp4">
+
+    <input type="submit" id="Submit2">
+    <!-- <input type="text" class="outp"> -->
+    <label id="labout2" for="output2">Output</label>
+    <textarea class="output2" rows="10" cols="40" name="input2" readonly></textarea>
+
+  </form>
+  <script src="caesar.js"></script>
+</body>
+
+</html>

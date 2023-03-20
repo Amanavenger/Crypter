@@ -1,0 +1,729 @@
+body{
+  background-color: #000000;
+}
+
+.dobutton {
+  -webkit-border-radius: 21;
+  -moz-border-radius: 21;
+  border-radius: 21px;
+  font-family: Arial;
+  color: honeydew;
+  font-size: 20px;
+  background: #00d975;
+  padding: 15px 25px 15px 25px;
+  border: solid #00d975 2px;
+  transition-duration: 0.35s;
+  position: absolute;
+  left: 75%;
+  top: 8.5%;
+}
+
+
+.dobutton:hover {
+  cursor: pointer;
+  background: #202231;
+  
+}
+
+.webtitle{
+    color: honeydew;
+    position: absolute;
+    left: 26.5%;
+    letter-spacing: 60px;
+    top: 7.5%;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 110px;
+}
+
+.subtitle{
+  color: honeydew;
+  position: absolute;
+  left: 38%;
+ 
+  top: 34%;
+  font-family: 'Shippori Antique', sans-serif;
+  font-size: 43px;
+}
+hr.hr1 {
+  border: 10px solid green;
+  border-radius: 7px; 
+  
+  border: 0; border-top: 10px solid #00d975;
+  margin-top: 400px;
+  margin-left: 700px;
+  margin-right: 700px; 
+}
+
+
+
+.p1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+   color : honeydew;
+    font-family: 'Shippori Antique', sans-serif;
+}
+.p2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+   color : honeydew;
+    font-family: 'Shippori Antique', sans-serif;
+}
+.p3{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+   color : honeydew;
+    font-family: 'Shippori Antique', sans-serif;
+}
+.explore {
+    position: absolute;
+    left: 45.3%;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background:  #202231;
+  padding: 10px 20px 10px 20px;
+  border: solid #f0fff0 2px;
+  transition-duration: 0.32s;
+ 
+  
+ 
+}
+.explore:hover {
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  cursor: pointer;
+}
+
+.dotext{
+  color: honeydew;
+  position: absolute;
+  left: 36%;
+ 
+  top: 110%;
+  font-family: 'Shippori Antique', sans-serif;
+  font-size: 70px;
+}
+
+.encryption{
+  background:#202231;
+  position: absolute;
+  top: 140%;
+  left: 21%;
+  height: 500px;
+  width: 400px;
+  border: transparent;
+  border-radius: 10px;
+  
+
+}
+
+.encryption:hover {
+  border: 3px solid #359472;
+  background:#25283b;
+  cursor: pointer;
+  transition-duration: 0.32s;   
+ 
+}
+
+.encho{
+  opacity: 0;
+  transition: opacity .35s ease;
+  
+}
+.encryption:hover .encho{
+  opacity: 1;
+  
+}
+.encb:hover{
+  cursor: pointer;
+}
+.encp{
+  text-align: center;
+    color: honeydew;
+    font-family: 'Shippori Antique', sans-serif;
+}
+.decryption{
+  background: #202231;
+  position: absolute;
+  top: 140%;
+  right: 21%;
+  height: 500px;
+  width: 400px;
+  border: transparent;
+  border-radius: 10px;
+}
+
+.decryption:hover {
+  border: 3px solid #359472;
+  background:#25283b;
+  cursor: pointer;
+  transition-duration: 0.32s;   
+ 
+}
+.decp{
+  text-align: center;
+    color: honeydew;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.decho{
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.decryption:hover .decho{
+  opacity: 1;
+}
+.decb:hover{
+  cursor: pointer;
+}
+
+.enc{
+    text-align: center;
+    color: honeydew;
+    font-family: 'Shippori Antique', sans-serif;
+}
+.dec{
+  text-align: center;
+  color: honeydew;
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+.decimg{
+  height: 45%;
+  width: 100%;
+}
+.encimg{
+
+  height: 45%;
+  width: 100%;
+}
+
+.decb {
+  position: relative;
+  left: 117px;
+  top: 40px;
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+}
+
+.decb:hover {
+  text-decoration: none;
+}
+
+.encb {
+  position: relative;
+  left: 117px;
+  top: 40px;
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+}
+
+.encb:hover {
+  text-decoration: none;
+}
+
+.feat{
+ 
+  margin-top: 200px;
+}
+
+hr.bg{
+
+  border-radius: 1px; 
+  
+  border: 0; border-top: 1px solid #202231;
+}
+
+.para4{
+  display: inline-block;
+  color: #00d975;
+  font-family: 'Shippori Antique', sans-serif;
+  font-size: 55px;
+  position: absolute;
+    left: 21%;
+    top: 4%;
+    right: 5%;
+}
+.para2{
+  display: inline-block;
+  color: honeydew; font-family: 'Shippori Antique', sans-serif;
+  font-size: 28px;position: absolute;
+  left: 42%;
+  top: 8%;
+  right: 5%;
+  
+}
+.para1{
+  display: inline-block;
+  color: honeydew; font-family: 'Shippori Antique', sans-serif;
+  font-size: 28px;position: absolute;
+  left: 5%;
+  top: 8%;
+  right: 5%;
+}
+.para3{
+  
+    color: honeydew; font-family: 'Shippori Antique', sans-serif;
+    font-size: 28px; display: inline-block;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    right: 5%;
+    font-style: italic;
+}
+.para5{
+  display: inline-block;
+  color: honeydew; font-family: 'Shippori Antique', sans-serif;
+  font-size: 28px;position: absolute;
+  left: 5%;
+  top: 32%;
+  right: 5%;
+}
+
+
+.encryption1 {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #202231;
+  padding: 14px 24px 14px 24px;
+  border: solid #f0fff0 2px;
+  text-decoration: none;
+  transition-duration: 0.35s;
+  cursor: pointer;
+  position: absolute;
+  left: 27.5%;
+  top: 36%;
+}
+
+.encryption1:hover {
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  text-decoration: none;
+}
+
+.para10{
+  display: inline-block;
+  color: #00d975;
+  font-family: 'Shippori Antique', sans-serif;
+  font-size: 55px;
+  position: absolute;
+    left: 18%;
+    top: 48%;
+    right: 5%;
+}
+
+.para6{
+  display: inline-block;
+  color: honeydew; font-family: 'Shippori Antique', sans-serif;
+  font-size: 28px;position: absolute;
+  left: 5%;
+  top: 52.5%;
+  right: 5%;
+}
+.para7{
+  display: inline-block;
+  color: honeydew; font-family: 'Shippori Antique', sans-serif;
+  font-size: 28px;position: absolute;
+  left: 39%;
+  top: 52.5%;
+  right: 5%;
+  
+}
+.para8{
+  
+  color: honeydew; font-family: 'Shippori Antique', sans-serif;
+  font-size: 28px; display: inline-block;
+  position: absolute;
+  left: 5%;
+  top: 64%;
+  right: 5%;
+  font-style: italic;
+}
+
+.para9{
+  display: inline-block;
+  color: honeydew; font-family: 'Shippori Antique', sans-serif;
+  font-size: 28px;position: absolute;
+  left: 5%;
+  top: 75.5%;
+  right: 5%;
+}
+
+
+
+.decryption1 {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #202231;
+  padding: 14px 24px 14px 24px;
+  border: solid #f0fff0 2px;
+  text-decoration: none;
+  transition-duration: 0.35s;
+  cursor: pointer;
+  position: absolute;
+  left: 27.5%;
+  top: 78%;
+}
+
+.decryption1:hover {
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  text-decoration: none;
+}
+
+.enctype{
+color: honeydew; font-family: 'Shippori Antique', sans-serif;
+text-align: center;
+font-size: 48px;
+}
+
+
+.rot13 {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  background: #202231;
+  padding: 18px 30px 18px 30px;
+  border: solid #f0fff0 2px;
+  text-decoration: none;
+  position: absolute;
+  left: 20%;
+  cursor: pointer;
+}
+
+.rot13:hover {
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  text-decoration: none;
+}
+
+.vig {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  background: #202231;
+  padding: 18px 30px 18px 30px;
+  border: solid #f0fff0 2px;
+  text-decoration: none;
+  position: absolute;
+  left: 60%;
+  cursor: pointer;
+}
+
+.vig:hover {
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  text-decoration: none;
+}
+
+.base {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  background: #202231;
+  padding: 18px 30px 18px 30px;
+  border: solid #f0fff0 2px;
+  text-decoration: none;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  cursor: pointer;
+}
+
+.base:hover {
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  text-decoration: none;
+}
+
+
+.rail {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  background: #202231;
+  padding: 18px 30px 18px 30px;
+  border: solid #f0fff0 2px;
+  text-decoration: none;
+  position: absolute;
+  left: 60%;
+  top: 40%;
+  cursor: pointer;
+}
+
+.rail:hover {
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  text-decoration: none;
+}
+
+.sha {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  background: #202231;
+  padding: 18px 30px 18px 30px;
+  border: solid #f0fff0 2px;
+  text-decoration: none;
+  position: absolute;
+  left: 40%;
+  top: 62.5%;
+  cursor: pointer;
+}
+
+.sha:hover {
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  text-decoration: none;
+}
+
+.but6 {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  background: #202231;
+  padding: 18px 30px 18px 30px;
+  border: solid #f0fff0 2px;
+  text-decoration: none;
+  position: absolute;
+  left: 60%;
+  top: 62.5%;
+  cursor: pointer;
+}
+
+.but6:hover {
+  background: #00db75;
+  background-image: -webkit-linear-gradient(top, #00db75, #07b271);
+  background-image: -moz-linear-gradient(top, #00db75, #07b271);
+  background-image: -ms-linear-gradient(top, #00db75, #07b271);
+  background-image: -o-linear-gradient(top, #00db75, #07b271);
+  background-image: linear-gradient(to bottom, #00db75, #07b271);
+  text-decoration: none;
+}
+.head1enc{
+color:  #00d975;
+font-family: 'Shippori Antique', sans-serif;
+position: absolute;
+left: 15%;
+top: 3%;
+
+}
+.head1dec{
+color:  #00d975;
+font-family: 'Shippori Antique', sans-serif;
+position: absolute;
+left: 80%;
+top:3%;
+}
+#labinp1{
+position: absolute;
+top: 14%;
+left: 8%;
+font-size: 30px;
+color: honeydew;
+font-family: 'Shippori Antique', sans-serif;
+
+}
+#inp1{
+position: absolute;
+top: 20%;
+left: 8%;
+
+}
+
+#labkey1{
+  position: absolute;
+  top: 44%;
+  left: 8%;
+  font-size: 30px;
+  color: honeydew;
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+.inp2{
+ position: absolute;
+left: 8%;
+top: 50%;
+}
+
+.output{
+  position: absolute;
+left: 8%;
+top: 66%;
+}
+
+#labout1{
+  position: absolute;
+  top: 60%;
+  left: 8%;
+  font-size: 30px;
+  color: honeydew;
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+#Submit{
+  position: absolute;
+left: 8%;
+top:55%;
+}
+
+/*   */
+
+
+#labinp3{
+  position: absolute;
+top: 14%;
+left:75%;
+font-size: 30px;
+color: honeydew;
+font-family: 'Shippori Antique', sans-serif;
+}
+
+#inp3{
+position: absolute;
+left: 75%;
+top: 20%;
+}
+
+#labkey2{
+  position: absolute;
+  top: 44%;
+  left: 75%;
+  font-size: 30px;
+  color: honeydew;
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+.inp4{
+  position: absolute;
+  left: 75%;
+  top: 50%;
+}
+
+#Submit2{
+  position: absolute;
+  left: 75%;
+  top:55%;
+
+}
+
+#labout2{
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  font-size: 30px;
+  color: honeydew;
+  font-family: 'Shippori Antique', sans-serif;
+}
+.output2{
+  position: absolute;
+  left: 75%;
+  top: 66%;
+}
+
+#cae1{
+  color:  #00d975;
+font-family: 'Shippori Antique', sans-serif;
+position: absolute;
+left: 38%;
+top:  28%;
+font-size: 80px;
+}
+
+#cae2{
+  color:  #00d975;
+  font-family: 'Shippori Antique', sans-serif;
+  position: absolute;
+  left: 38.5%;
+  top:  40.5%;
+  font-size: 80px;
+}

@@ -1,0 +1,81 @@
+<!-- <html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vigenère cipher </title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+				<h3>Vigenère Cipher Algorithm</h3>
+				<textarea id="userText" placeholder="What is your secret message?"></textarea>
+				<input id="keyword" type="text" placeholder="keyword"></input>
+				<button id="encrypt" class="btn btn-default" type="submit">Encrypt</button>
+        <textarea id="outText" placeholder=""></textarea>
+
+			</div>
+		</div>
+	</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="vigneretest.js"></script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vigenere Cipher</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="cae1">VIGENERE </h1>
+  <H1 id="cae2">CIPHER</H1>
+  <h1 class="head1enc">Encryption</h1>
+  <form>
+
+    <label id="labinp1" for="inp1">Input</label>
+    <textarea class="inpu1" id="inp1" rows="10" cols="40" name="input2"></textarea>
+    <!-- Plain text   id= #inp1  class= .inpu1 -->
+    <label id="labkey1" for="inp2">Key</label>
+    <input type="text" class="inp2" placeholder="string"> <!-- key text   class= .inp2-->
+
+    <input type="submit" id="Submit"> <!-- Submit btn  id= #Submit  -->
+    <label id="labout1" for="output">Output</label>
+    <textarea class="output" id="output" rows="10" cols="40" name="input2" readonly> </textarea>
+    <!-- output text   class= .output-->
+  </form>
+
+  <h1 class="head1dec">Decryption</h1>
+  <form>
+    <label id="labinp3" for="inp3">Input</label>
+    <textarea id="inp3" rows="10" cols="40" name="input2"></textarea> <!-- Plain text  id= #inp3 -->
+    <label id="labkey2" for="inp4">Key</label>
+    <input type="text" class="inp4"> <!-- Key text   class= .inp4 -->
+
+    <input type="submit" id="Submit2"> <!-- Submit  btn    id= #Submit2-->
+    <!-- <input type="text" class="outp"> -->
+    <label id="labout2" for="output2">Output</label>
+    <textarea class="output2" rows="10" cols="40" name="input2" readonly></textarea>
+    <!-- output text  class= .output2 -->
+
+  </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="vigneretest.js"></script>
+</body>
+
+</html>
